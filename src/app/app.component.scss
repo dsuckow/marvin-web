@@ -1,0 +1,76 @@
+.content {
+    display: grid;
+    height: 100vh;
+    grid-template-rows: auto 1fr auto;
+}
+
+.footer-toolbar .tecstack-logo {
+    margin: 2px;
+}
+
+.main-content {
+    display: grid;
+    place-items: center;
+    resize: both;
+    height: 100%;
+    grid-template-rows: 1fr auto;
+}
+
+.main-content-result {
+    grid-template-rows: auto 1fr auto;
+}
+
+.main-action {
+    width: 100%;
+}
+
+.mat-card {
+    margin: 1em;
+}
+
+.add-button-container {
+    margin: 1em;
+}
+
+.search-card {
+    min-width: 30em;
+    margin: 1em;
+}
+.search-input {
+    width: 100%;
+}
+
+.search-result {
+    height: 100%;
+}
+
+.result-panel {
+    min-width: 50em;
+    margin: 1em;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    padding: 0.5em;
+}
+
+.fill-horizontal {
+    /* This fills the remaining space, by using flexbox.
+       Every toolbar row uses a flexbox row layout. */
+    flex: 1 1 auto;
+    text-align: center;
+}
+
+.align-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.2em;
+}
+
+.user-image {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+}

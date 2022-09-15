@@ -1,3 +1,9 @@
+# Compiled output
+/dist
+/tmp
+/out-tsc
+/bazel-out
+
 # Logs
 logs
 *.log
@@ -102,3 +108,16 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Miscellaneous
+/.angular/cache
+.sass-cache/
+/connect.lock
+/coverage
+/libpeerconnection.log
+testem.log
+/typings
+
+# System files
+.DS_Store
+Thumbs.db
